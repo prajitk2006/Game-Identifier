@@ -1,0 +1,19 @@
+{
+  "name": "gym-meal-plan-app",
+  "version": "1.0.0",
+  "description": "Gym membership and meal plan ordering platform",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["gym", "meal-plan", "membership", "ordering"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
