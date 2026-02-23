@@ -1,15 +1,15 @@
 {
-  "name": "gym-meal-plan-app",
+  "name": "game-identifier",
   "version": "1.0.0",
-  "description": "Gym membership and meal plan ordering platform",
+  "description": "AI-powered game screenshot identification system",
   "main": "server/index.js",
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "cd server && npm run dev",
-    "client": "cd client && npm start",
-    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+    "client": "cd my-app && npm run dev",
+    "install-all": "npm install && cd server && npm install && cd ../my-app && npm install"
   },
-  "keywords": ["gym", "meal-plan", "membership", "ordering"],
+  "keywords": ["game", "identifier", "ai", "screenshot", "ml"],
   "author": "",
   "license": "ISC",
   "devDependencies": {

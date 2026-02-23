@@ -13,7 +13,7 @@ A React-based web application that allows gamers to identify games by uploading 
 ## Project Structure
 
 ```
-GP/
+Game-Identifier/
 ├── my-app/          # React frontend
 │   └── src/
 │       ├── GameIdentifier.jsx    # Main identification page
